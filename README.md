@@ -1,8 +1,10 @@
 
 ```bash
 # Vim-plug
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"
+/nvim/site/autoload/plug.vim 
+--create-dirs \ 
+https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 # Some runtimes are needed, install only those you don't have
 sudo pacman -S nodejs npm python python-pip ruby rubygems
