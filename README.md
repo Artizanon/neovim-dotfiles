@@ -20,10 +20,9 @@ sudo pacman -S xsel fzf ripgrep fd the_silver_searcher prettier
 yay -S universal-ctags-git
 
 # Open neovim and tipe
-
 :PlugInstall #and close the terminal
 ```
-
+## Basic shortcuts
 | Key                    | Action                                 |
 | ---------------------- | -------------------------------------- |
 | **jk** or **kj**       | Go to normal mode (from insert)        |
@@ -37,7 +36,7 @@ yay -S universal-ctags-git
 | **shift + <** or **>** | Indent one level or remove it (visual) |
 | **shift + k** or **j** | Move selected line down or up (visual) |
 
-***Plugin keybindings***:
+## Plugin keybindings:
 
 | Key           | Action                                        |
 | ------------- | --------------------------------------------- |
