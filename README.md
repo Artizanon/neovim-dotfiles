@@ -2,10 +2,8 @@
 ### First install this
 ```bash
 # Vim-plug
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"
-/nvim/site/autoload/plug.vim 
---create-dirs \ 
-https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs
+https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # Some runtimes are needed, install only those you don't have
 sudo pacman -Sy icu lib32-icu nodejs npm python python-pip ruby rubygems
