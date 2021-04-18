@@ -21,11 +21,10 @@ yay -S universal-ctags-git
 
 # Open neovim and tipe
 
-:PlugInstall
+:PlugInstall #and close the terminal
 
-#close nevim
 
-## importan shortkeys
+# importan shortkeys
 
 
 | Key                    | Action                                 |
