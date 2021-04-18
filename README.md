@@ -25,6 +25,8 @@ yay -S universal-ctags-git
 
 #close nevim
 
+## importan shortkeys
+
 
 | Key                    | Action                                 |
 | ---------------------- | -------------------------------------- |
