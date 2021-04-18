@@ -1,4 +1,5 @@
 
+#First install this
 ```bash
 # Vim-plug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"
@@ -17,11 +18,13 @@ sudo npm i -g neovim
 # Some other dependencies
 sudo pacman -S xsel fzf ripgrep fd the_silver_searcher prettier
 yay -S universal-ctags-git
-```
-# Open neovim and execute
-*:PlugInstall*
 
-# and close *neovim.*
+# Open neovim and tipe
+
+:PlugInstall
+
+#close nevim
+
 
 | Key                    | Action                                 |
 | ---------------------- | -------------------------------------- |
