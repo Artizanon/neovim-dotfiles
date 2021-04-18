@@ -18,8 +18,10 @@ sudo npm i -g neovim
 sudo pacman -S xsel fzf ripgrep fd the_silver_searcher prettier
 yay -S universal-ctags-git
 ```
+# Open neovim and execute
+*:PlugInstall*
 
-Open *neovim* and execute *:PlugInstall* and close *neovim.*
+# and close *neovim.*
 
 | Key                    | Action                                 |
 | ---------------------- | -------------------------------------- |
