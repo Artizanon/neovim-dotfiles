@@ -13,7 +13,7 @@ nnoremap <M-l> :vertical resize +2<CR>
 " Alternate way to save
 nnoremap <C-s> :w<CR>
 " Alternate way to quit and save
-nnoremap <C-q> :wq!<CR>
+nnoremap <C-q> :q!<CR>
 
 " TAB in general mode will move to next buffer
 nnoremap <TAB> :bnext<CR>
